@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+header {
+  border: 1px solid black;
+
+
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: rgb(2, 2, 72);
+  padding: 0px 20px;
+}
+
+.navbar .logo {
+  margin-right: auto;
+}
+
+.navbar .logo img {
+  height: 120px;
+
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-family: "Quicksand", sans-serif;
+  font-size: 25px;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;  
+}
+
+
+
+.intro {
+
+  border: 1px solid;
+  margin-top: 0px;
+  background: url(./img/solar-panels-for-home_0_1200.jpg);
+  background-size: cover;
+  height: 20rem;
+  padding-top: 13%;
+
+
+}
+
+.intro p {
+  padding: 10px 10%;
+  font-size: 5rem;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 900;
+  color: aliceblue;
+
+}
+
+span {
+  color: #ffd413;
+}
+
+#no {
+  font-size: 20px;
+}
+
+button {
+  position: relative;
+  display: inline-block;
+  margin: 15px 3%;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #ffd413;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border: 2px solid #ffd413;
+  border-radius: 10px;
+  font-family: "Quicksand", sans-serif;
+  box-shadow: inset 0 0 0 0 #ffd413;
+}
+
+button:hover {
+  color: white;
+  box-shadow: inset 0 -100px 0 0 #ffd413;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+article {
+  background-color: rgb(2, 2, 72);
+
+}
+
+.p1 {
+  color: #ffd413;
+  font-size: 50px;
+  justify-content: center;
+  display: flex;
+  font-family: "Quicksand", sans-serif;
+}
+
+.p2 {
+  color: #ffffff;
+  font-size: 60px;
+  justify-content: center;
+  display: flex;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 900;
+}
+
+
+
+#a {
+  width: 70%;
+
+}
+
+#b {
+  width: 70%;
+
+
+}
+
+#c {
+  width: 70%;
+
+
+}
+
+.bossbox {
+  display: flex;
+ align-items: center;
+ text-align: center;
+ justify-content: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 30px;
+  color: aliceblue;
+  margin: 10px 0;
+  padding: 10px ;
+ 
+}
+
+.box1 {
+  border: 1px solid rgba(255, 4, 4, 0);
+  width: 32%;
+  height: 30vh;
+  padding: 8% 30px;
+
+
+}
+
+.box2 {
+  border: 1px solid rgba(0, 0, 0, 0);
+  width: 32%;
+  height: 30vh;
+  padding: 8% 30px;
+}
+
+.box3 {
+  border: 1px solid rgba(0, 0, 0, 0);
+  width: 32%;
+  height: 30vh; 
+  padding: 8% 30px;
+}
+.box2 img{
+ height: 26vh;
+ border-radius: 10px;
+}
+.box3 img{
+  height: 26vh;
+  border-radius: 10px;
+ }
+ .box1 img{
+  border-radius: 10px;
+  height: 26vh;
+ }
+ 
